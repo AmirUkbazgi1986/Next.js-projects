@@ -1,3 +1,8 @@
+import Link from "next/link";
 export default function Home() {
-  return <h1 className="text-5xl">Welcom Home</h1>;
+  return (
+    <main className="max-w-5xl w-full m-auto bg-lime-50 grow">
+      <p>This a main page</p>
+    </main>
+  );
 }

@@ -1,8 +1,10 @@
+import Link from "next/link";
 function page() {
   return (
-    <div>
+    <main className="max-w-5xl w-full m-auto bg-lime-50 grow">
       <p className="text-3xl">About page</p>
-    </div>
+      <Link href="/">Home</Link>
+    </main>
   );
 }
 

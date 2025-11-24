@@ -6,11 +6,11 @@ async function page({ params }) {
     notFound();
   }
   return (
-    <div>
+    <main className="max-w-5xl w-full m-auto bg-lime-50 grow">
       <h1 className="text-3xl">
         Review {reviewId} for product {productId}
       </h1>
-    </div>
+    </main>
   );
 }
 
